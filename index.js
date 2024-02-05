@@ -14,6 +14,7 @@ const mongoPass=process.env.MONGOPASS
 const port=process.env.PORT
 
 app.use(cors())
+app.use(express.json())
 
 
 
